@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+}
+.head {
+  background-image: url(images/head.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  width: 100%;
+  height: 400px;
+}
+.right-nav {
+  display: flex;
+}
+.left-nav #logo {
+  color: rgba(206, 119, 20, 0.904);
+  padding: 0 30px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.left-nav #sub-logo {
+  color: white;
+  cursor: pointer;
+  padding: 0 60px;
+  line-height: 2px;
+  font-size: 30px;
+}
+.right-nav li a {
+  text-decoration: none;
+  color: white;
+  padding: 0 30px;
+  font-size: 20px;
+}
+.right-nav li {
+  list-style-type: none;
+  margin-top: 20px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+.hero {
+  text-align: center;
+  padding-top: 100px;
+}
+.hero p {
+  color: white;
+  font-size: 30px;
+}
+.hero span {
+  color: rgba(206, 119, 20, 0.904);
+  font-size: 30px;
+  font-weight: bolder;
+}
+.hero button {
+  margin-top: 40px;
+  background-color: rgba(206, 119, 20, 0.904);
+  width: 150px;
+  padding: 10px 0;
+  color: white;
+  border-radius: 20px;
+  border: none;
+  font-size: 20px;
+}
+.main .heading h1 {
+  color: black;
+  font-size: 20px;
+  padding-top: 20px;
+}
+.main .heading {
+  text-align: center;
+}
+.main .heading span {
+  color: rgba(206, 119, 20, 0.904);
+  font-size: 30px;
+  font-weight: bolder;
+}
+.main .category-img img {
+  width: 500px;
+  height: 800px;
+  /* padding: 10px 70px; */
+  margin: 10px 70px;
+}
+.category-img {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+.top-products {
+  background-image: url(images/top-product.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+.product-head {
+  text-align: center;
+}
+.top-products h1 {
+  color: white;
+}
+.top-products #product {
+  color: rgba(206, 119, 20, 0.904);
+  font-size: 25px;
+  font-weight: bolder;
+}
+.top-products .images {
+  display: flex;
+  justify-content: center;
+  height: 300px;
+  margin-top: 20px;
+}
+.top-products .images img {
+  width: 200px;
+  height: 200px;
+  padding: 0 40px;
+}
+.top-products .images p {
+  color: black;
+  text-align: center;
+  color: rgba(206, 119, 20, 0.904);
+  font-weight: bolder;
+}
+.top-products .images #title {
+  color: black;
+}
+
+.top-products .images .image {
+  background-color: white;
+  margin-left: 20px;
+}
+.top-products .images .image button {
+  text-align: center;
+  margin-left: 50px;
+  margin-top: 10px;
+  width: 100px;
+  border-radius: 5px;
+  background-color: rgba(206, 119, 20, 0.904);
+  color: white;
+  padding: 5px;
+}
+.view-products button {
+  margin-left: 45%;
+  margin-top: 30px;
+  background: #000;
+  color: white;
+  padding: 5px;
+  width: 150px;
+  border-radius: 10px;
+  border: 2px solid rgba(206, 119, 20, 0.904);
+}
+.email-part {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.email-part .left-part {
+  margin-left: 300px;
+}
+.email-part .left-part p {
+  color: black;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.email-part .left-part span {
+  color: rgba(206, 119, 20, 0.904);
+  font-weight: bolder;
+  font-size: 20px;
+}
+.email-part .left-part #sub {
+  font-size: 15px;
+}
+.email-part .right-part {
+  margin-right: 200px;
+  margin-top: 32px;
+}
+.email-part .right-part input {
+  padding: 5px 10px;
+  border: 1px solid rgba(206, 119, 20, 0.904);
+}
+.email-part .right-part button {
+  padding: 5px;
+  margin-right: 5px;
+  background-color: rgba(206, 119, 20, 0.904);
+  color: white;
+  border: 1px solid rgba(206, 119, 20, 0.904);
+  margin-left: -5px;
+}
