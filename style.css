@@ -192,3 +192,107 @@
   border: 1px solid rgba(206, 119, 20, 0.904);
   margin-left: -5px;
 }
+.email-part .news p {
+  position: absolute;
+  left: 240px;
+  margin-top: px;
+  font-size: 70px;
+  color: rgba(206, 119, 20, 0.904);
+}
+.footer {
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: black;
+  height: 300px;
+}
+.footer h2 {
+  color: rgba(206, 119, 20, 0.904);
+}
+.footer .navigation li {
+  text-decoration: none;
+  padding-bottom: 10px;
+  list-style-type: none;
+}
+.footer .navigation a {
+  text-decoration: none;
+  color: white;
+}
+.footer .connected p {
+  padding: 10px;
+}
+
+.footer .social-links a {
+  color: rgba(206, 119, 20, 0.904);
+  border: 1px solid rgba(206, 119, 20, 0.904);
+  border-radius: 10px;
+  padding: 10px;
+}
+.connected .address .icon {
+  color: rgba(206, 119, 20, 0.904);
+  margin-right: 10px;
+}
+.connected .address p {
+  color: white;
+}
+.footer .social-links h3 {
+  color: white;
+}
+
+.ship {
+  display: flex;
+}
+.word {
+  padding-top: 20px;
+  margin-left: 20px;
+}
+
+.shipping #truck {
+  color: white;
+  font-size: 90px;
+}
+.shipping .word #free {
+  color: white;
+  font-size: 20px;
+  font-weight: bolder;
+  padding-top: 20px;
+}
+.shipping .word #shipping-word {
+  color: rgba(206, 119, 20, 0.904);
+  font-size: 20px;
+  font-weight: bolder;
+}
+.shipping p {
+  color: white;
+  font-weight: bold;
+}
+hr {
+  color: white;
+}
+.footer .navigation h2 {
+  margin-bottom: 30px;
+}
+.footer .connected h2 {
+  margin-bottom: 30px;
+}
+.footer .shipping h2 {
+  margin-bottom: 30px;
+}
+.copyright {
+  background-color: black;
+  display: flex;
+  height: 50px;
+  padding-top: 20px;
+}
+.copyright .sec p {
+  color: white;
+  margin-left: 350px;
+}
+.copyright .payment {
+  /* margin-left: 400px; */
+  padding-left: 100px;
+}
+.copyright .payment img {
+  width: 50px;
+  height: 20px;
+}
